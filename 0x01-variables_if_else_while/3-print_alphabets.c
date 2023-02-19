@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, and then in uppercase
+ * main - prints the alphabet in lowercase, and then in uppercase,
  * followed by a new line
  * return:Always 0 (success)
  */
-in main(void)
+int main(void)
 {
 	int ch;
 

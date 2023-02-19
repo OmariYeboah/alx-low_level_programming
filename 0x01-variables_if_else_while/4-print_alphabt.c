@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabets in lwercase,
  * followed by a new line, except q and e
- * Return:Always 0 (success)
+ * * Return: Aways 0 (Sucess)
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
-			putchar(ch;
+			putchar(ch);
 		}
 		ch++;
 	}
