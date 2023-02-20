@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints all possible combinations of two two-digit numbers
@@ -16,17 +16,18 @@ int main(void)
 			{
 				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
-				putchar('');
-				putchar(j / 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
 				putchar((j % 10) + 48);
 				if (i != 98 || j != 99)
 				{
 					putchar(',');
 					putchar(' ');
-				{
+				}
 			}
+
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
