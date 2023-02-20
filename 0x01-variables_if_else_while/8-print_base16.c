@@ -1,18 +1,25 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main - prints all the numbers of the base 16 in lowercase,
- * followed by a new line
- * Return: Always 0 (success)
+ * main - is entry of program
+ *
+ * Return: 0(Success)
  */
 int main(void)
 {
-	int n;
+	/*
+	 * prints the hexadecimal base16,using putchar only
+	 * loops through 9-0,prints them simulating char with arithemtics
+	 * loops through a-f, prints them
+	 */
+	int x;
+	char y;
 
-	for (n = 48; n < 58; n++)
-		putchar(n);
-	{
-		putchar(ch);
-	}
-	putchar('\n')
+	for (x = 0 ; x < 10 ; x++)
+		putchar((x % 10) + '0');
+
+	for (y = 'a' ; y <= 'f' ; y++)
+		putchar(y);
+	putchar('\n');
+
 	return (0);
+}
